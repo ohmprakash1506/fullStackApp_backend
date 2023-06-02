@@ -1,0 +1,698 @@
+function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+} 2023-06-01 18:04:31:431 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+} 2023-06-01 18:08:46:846 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+} 2023-06-01 18:10:56:1056 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+} 2023-06-01 18:11:28:1128 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+2023-06-01 18:12:20:1220 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+2023-06-01 18:21:02:212 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+2023-06-01 18:21:34:2134 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+2023-06-01 18:24:11:2411 [31merror[39m :[31mThis is error message[39m
+2023-06-01 18:24:11:2411 [33mwarn[39m :[33mThis is warn message[39m
+2023-06-01 18:24:11:2411 [34minfo[39m :[34mThis is info message[39m
+2023-06-01 18:24:11:2411 [32mhttp[39m :[32mThis is http message[39m
+2023-06-01 18:24:11:2411 [37mdebug[39m :[37mThis is debug message[39m
+2023-06-01 18:28:56:2856 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+2023-06-01 18:29:02:292 [31merror[39m :[31mThis is error message[39m
+2023-06-01 18:29:02:292 [33mwarn[39m :[33mThis is warn message[39m
+2023-06-01 18:29:02:292 [34minfo[39m :[34mThis is info message[39m
+2023-06-01 18:29:02:292 [32mhttp[39m :[32mThis is http message[39m
+2023-06-01 18:29:02:292 [37mdebug[39m :[37mThis is debug message[39m
+2023-06-01 18:35:15:3515 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+2023-06-01 18:35:24:3524 [31merror[39m :[31mThis is error message[39m
+2023-06-01 18:35:24:3524 [33mwarn[39m :[33mThis is warn message[39m
+2023-06-01 18:35:24:3524 [34minfo[39m :[34mThis is info message[39m
+2023-06-01 18:35:24:3524 [32mhttp[39m :[32mThis is http message[39m
+2023-06-01 18:35:24:3524 [37mdebug[39m :[37mThis is debug message[39m
+function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+} 2023-06-01 18:35:45:3545 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+} 2023-06-01 18:35:55:3555 [31merror[39m :[31mThis is error message[39m
+function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+} 2023-06-01 18:35:55:3555 [33mwarn[39m :[33mThis is warn message[39m
+function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+} 2023-06-01 18:35:55:3555 [34minfo[39m :[34mThis is info message[39m
+function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+} 2023-06-01 18:35:55:3555 [32mhttp[39m :[32mThis is http message[39m
+function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+} 2023-06-01 18:35:55:3555 [37mdebug[39m :[37mThis is debug message[39m
+function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+} 2023-06-01 18:36:03:363 [31merror[39m :[31mThis is error message[39m
+function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+} 2023-06-01 18:36:03:363 [33mwarn[39m :[33mThis is warn message[39m
+function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+} 2023-06-01 18:36:03:363 [34minfo[39m :[34mThis is info message[39m
+function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+} 2023-06-01 18:36:03:363 [32mhttp[39m :[32mThis is http message[39m
+function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+} 2023-06-01 18:36:03:363 [37mdebug[39m :[37mThis is debug message[39m
+function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+} 2023-06-01 18:36:12:3612 [31merror[39m :[31mThis is error message[39m
+function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+} 2023-06-01 18:36:12:3612 [33mwarn[39m :[33mThis is warn message[39m
+function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+} 2023-06-01 18:36:12:3612 [34minfo[39m :[34mThis is info message[39m
+function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+} 2023-06-01 18:36:12:3612 [32mhttp[39m :[32mThis is http message[39m
+function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+} 2023-06-01 18:36:12:3612 [37mdebug[39m :[37mThis is debug message[39m
+function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+} 2023-06-01 18:36:27:3627 [31merror[39m :[31mThis is error message[39m
+function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+} 2023-06-01 18:36:27:3627 [33mwarn[39m :[33mThis is warn message[39m
+function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+} 2023-06-01 18:36:27:3627 [34minfo[39m :[34mThis is info message[39m
+function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+} 2023-06-01 18:36:27:3627 [32mhttp[39m :[32mThis is http message[39m
+function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+} 2023-06-01 18:36:27:3627 [37mdebug[39m :[37mThis is debug message[39m
+2023-06-01 18:36:38:3638 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+2023-06-01 18:36:42:3642 [31merror[39m :[31mThis is error message[39m
+2023-06-01 18:36:42:3642 [33mwarn[39m :[33mThis is warn message[39m
+2023-06-01 18:36:42:3642 [34minfo[39m :[34mThis is info message[39m
+2023-06-01 18:36:42:3642 [32mhttp[39m :[32mThis is http message[39m
+2023-06-01 18:36:42:3642 [37mdebug[39m :[37mThis is debug message[39m
+ 2cf9fe5a-a9d7-49e5-968a-3325fb0763cb 2023-06-02 09:02:10:210 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+ 2cf9fe5a-a9d7-49e5-968a-3325fb0763cb 2023-06-02 09:02:39:239 [31merror[39m :[31mThis is error message[39m
+ 2cf9fe5a-a9d7-49e5-968a-3325fb0763cb 2023-06-02 09:02:39:239 [33mwarn[39m :[33mThis is warn message[39m
+ 2cf9fe5a-a9d7-49e5-968a-3325fb0763cb 2023-06-02 09:02:39:239 [34minfo[39m :[34mThis is info message[39m
+ 2cf9fe5a-a9d7-49e5-968a-3325fb0763cb 2023-06-02 09:02:39:239 [32mhttp[39m :[32mThis is http message[39m
+ 2cf9fe5a-a9d7-49e5-968a-3325fb0763cb 2023-06-02 09:02:39:239 [37mdebug[39m :[37mThis is debug message[39m
+ 2cf9fe5a-a9d7-49e5-968a-3325fb0763cb 2023-06-02 09:04:48:448 [31merror[39m :[31mThis is error message[39m
+ 2cf9fe5a-a9d7-49e5-968a-3325fb0763cb 2023-06-02 09:04:48:448 [33mwarn[39m :[33mThis is warn message[39m
+ 2cf9fe5a-a9d7-49e5-968a-3325fb0763cb 2023-06-02 09:04:48:448 [34minfo[39m :[34mThis is info message[39m
+ 2cf9fe5a-a9d7-49e5-968a-3325fb0763cb 2023-06-02 09:04:48:448 [32mhttp[39m :[32mThis is http message[39m
+ 2cf9fe5a-a9d7-49e5-968a-3325fb0763cb 2023-06-02 09:04:48:448 [37mdebug[39m :[37mThis is debug message[39m
+ 2cf9fe5a-a9d7-49e5-968a-3325fb0763cb 2023-06-02 09:06:40:640 [31merror[39m :[31mThis is error message[39m
+ 2cf9fe5a-a9d7-49e5-968a-3325fb0763cb 2023-06-02 09:06:40:640 [33mwarn[39m :[33mThis is warn message[39m
+ 2cf9fe5a-a9d7-49e5-968a-3325fb0763cb 2023-06-02 09:06:40:640 [34minfo[39m :[34mThis is info message[39m
+ 2cf9fe5a-a9d7-49e5-968a-3325fb0763cb 2023-06-02 09:06:40:640 [32mhttp[39m :[32mThis is http message[39m
+ 2cf9fe5a-a9d7-49e5-968a-3325fb0763cb 2023-06-02 09:06:40:640 [37mdebug[39m :[37mThis is debug message[39m
+ 95e733b6-4c73-478e-9e96-187d320b7843 2023-06-02 09:10:00:100 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+ [ebc4c762-e6da-400a-a37a-e20a9f4d6fdc] 2023-06-02 09:10:10:1010 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+ [ebc4c762-e6da-400a-a37a-e20a9f4d6fdc] 2023-06-02 09:10:25:1025 [31merror[39m :[31mThis is error message[39m
+ [ebc4c762-e6da-400a-a37a-e20a9f4d6fdc] 2023-06-02 09:10:25:1025 [33mwarn[39m :[33mThis is warn message[39m
+ [ebc4c762-e6da-400a-a37a-e20a9f4d6fdc] 2023-06-02 09:10:25:1025 [34minfo[39m :[34mThis is info message[39m
+ [ebc4c762-e6da-400a-a37a-e20a9f4d6fdc] 2023-06-02 09:10:25:1025 [32mhttp[39m :[32mThis is http message[39m
+ [ebc4c762-e6da-400a-a37a-e20a9f4d6fdc] 2023-06-02 09:10:25:1025 [37mdebug[39m :[37mThis is debug message[39m
+ [7136929a-0089-48e5-9635-62771fbbe25c] 2023-06-02 09:11:23:1123 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+ [7136929a-0089-48e5-9635-62771fbbe25c] 2023-06-02 09:11:27:1127 [31merror[39m :[31mThis is error message[39m
+ [7136929a-0089-48e5-9635-62771fbbe25c] 2023-06-02 09:11:27:1127 [33mwarn[39m :[33mThis is warn message[39m
+ [7136929a-0089-48e5-9635-62771fbbe25c] 2023-06-02 09:11:27:1127 [34minfo[39m :[34mThis is info message[39m
+ [7136929a-0089-48e5-9635-62771fbbe25c] 2023-06-02 09:11:27:1127 [32mhttp[39m :[32mThis is http message[39m
+ [7136929a-0089-48e5-9635-62771fbbe25c] 2023-06-02 09:11:27:1127 [37mdebug[39m :[37mThis is debug message[39m
+ [undefined] 2023-06-02 09:13:02:132 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+ [3998c380-ef98-4b45-b293-70cb16005160] 2023-06-02 09:13:25:1325 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+ [3998c380-ef98-4b45-b293-70cb16005160] 2023-06-02 09:13:49:1349 [31merror[39m :[31mThis is error message[39m
+ [3998c380-ef98-4b45-b293-70cb16005160] 2023-06-02 09:13:49:1349 [33mwarn[39m :[33mThis is warn message[39m
+ [3998c380-ef98-4b45-b293-70cb16005160] 2023-06-02 09:13:49:1349 [34minfo[39m :[34mThis is info message[39m
+ [3998c380-ef98-4b45-b293-70cb16005160] 2023-06-02 09:13:49:1349 [32mhttp[39m :[32mThis is http message[39m
+ [3998c380-ef98-4b45-b293-70cb16005160] 2023-06-02 09:13:49:1349 [37mdebug[39m :[37mThis is debug message[39m
+ [3998c380-ef98-4b45-b293-70cb16005160] 2023-06-02 09:16:06:166 [31merror[39m :[31mThis is error message[39m
+ [3998c380-ef98-4b45-b293-70cb16005160] 2023-06-02 09:16:06:166 [33mwarn[39m :[33mThis is warn message[39m
+ [3998c380-ef98-4b45-b293-70cb16005160] 2023-06-02 09:16:06:166 [34minfo[39m :[34mThis is info message[39m
+ [3998c380-ef98-4b45-b293-70cb16005160] 2023-06-02 09:16:06:166 [32mhttp[39m :[32mThis is http message[39m
+ [3998c380-ef98-4b45-b293-70cb16005160] 2023-06-02 09:16:06:166 [37mdebug[39m :[37mThis is debug message[39m
+ [d76ed2eb-8132-4a50-ba41-4c7f8e32032a] 2023-06-02 09:36:03:363 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+ [d76ed2eb-8132-4a50-ba41-4c7f8e32032a] 2023-06-02 09:36:18:3618 [31merror[39m :[31mThis is error message[39m
+ [d76ed2eb-8132-4a50-ba41-4c7f8e32032a] 2023-06-02 09:36:18:3618 [33mwarn[39m :[33mThis is warn message[39m
+ [d76ed2eb-8132-4a50-ba41-4c7f8e32032a] 2023-06-02 09:36:18:3618 [34minfo[39m :[34mThis is info message[39m
+ [d76ed2eb-8132-4a50-ba41-4c7f8e32032a] 2023-06-02 09:36:18:3618 [32mhttp[39m :[32mThis is http message[39m
+ [d76ed2eb-8132-4a50-ba41-4c7f8e32032a] 2023-06-02 09:36:18:3618 [37mdebug[39m :[37mThis is debug message[39m
