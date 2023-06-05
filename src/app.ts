@@ -2,6 +2,7 @@ import express from "express";
 import "dotenv/config";
 import Logger from "./middlewares/logger.middleware";
 import { scheduleCronJobs } from "./cornJob";
+import routes from "./users/router/user.router";
 
 require("dotenv").config();
 const app = express();
@@ -22,3 +23,5 @@ app.get("/logger", (req, res) => {
 app.listen(port, () => {
   Logger.debug(`Server is listening @ host http://localhost:${port}`);
 });
+
+app.use("/api/v1", routes);

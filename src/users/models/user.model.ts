@@ -13,7 +13,7 @@ const attributes = {
     type: DataTypes.STRING,
     allowNull: false,
   },
-  hash: {
+  password: {
     type: DataTypes.STRING,
     allowNull: false,
   },

@@ -696,3 +696,20 @@ function v4(options, buf, offset) {
  [d76ed2eb-8132-4a50-ba41-4c7f8e32032a] 2023-06-02 09:36:18:3618 [34minfo[39m :[34mThis is info message[39m
  [d76ed2eb-8132-4a50-ba41-4c7f8e32032a] 2023-06-02 09:36:18:3618 [32mhttp[39m :[32mThis is http message[39m
  [d76ed2eb-8132-4a50-ba41-4c7f8e32032a] 2023-06-02 09:36:18:3618 [37mdebug[39m :[37mThis is debug message[39m
+ [42b4aa94-16d3-405d-8a8a-667d58dfeab3] 2023-06-02 17:26:25:2625 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+ [42b4aa94-16d3-405d-8a8a-667d58dfeab3] 2023-06-02 17:26:43:2643 [31merror[39m :[31mThis is error message[39m
+ [42b4aa94-16d3-405d-8a8a-667d58dfeab3] 2023-06-02 17:26:43:2643 [33mwarn[39m :[33mThis is warn message[39m
+ [42b4aa94-16d3-405d-8a8a-667d58dfeab3] 2023-06-02 17:26:43:2643 [34minfo[39m :[34mThis is info message[39m
+ [42b4aa94-16d3-405d-8a8a-667d58dfeab3] 2023-06-02 17:26:43:2643 [32mhttp[39m :[32mThis is http message[39m
+ [42b4aa94-16d3-405d-8a8a-667d58dfeab3] 2023-06-02 17:26:43:2643 [37mdebug[39m :[37mThis is debug message[39m
+ [42b4aa94-16d3-405d-8a8a-667d58dfeab3] 2023-06-02 17:55:39:5539 [31merror[39m :[31mThis is error message[39m
+ [42b4aa94-16d3-405d-8a8a-667d58dfeab3] 2023-06-02 17:55:39:5539 [33mwarn[39m :[33mThis is warn message[39m
+ [42b4aa94-16d3-405d-8a8a-667d58dfeab3] 2023-06-02 17:55:39:5539 [34minfo[39m :[34mThis is info message[39m
+ [42b4aa94-16d3-405d-8a8a-667d58dfeab3] 2023-06-02 17:55:39:5539 [32mhttp[39m :[32mThis is http message[39m
+ [42b4aa94-16d3-405d-8a8a-667d58dfeab3] 2023-06-02 17:55:39:5539 [37mdebug[39m :[37mThis is debug message[39m
+ [452cde74-7e3f-4371-ba1d-828f0cdf113a] 2023-06-05 09:44:27:4427 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+ [452cde74-7e3f-4371-ba1d-828f0cdf113a] 2023-06-05 09:45:37:4537 [31merror[39m :[31mThis is error message[39m
+ [452cde74-7e3f-4371-ba1d-828f0cdf113a] 2023-06-05 09:45:37:4537 [33mwarn[39m :[33mThis is warn message[39m
+ [452cde74-7e3f-4371-ba1d-828f0cdf113a] 2023-06-05 09:45:37:4537 [34minfo[39m :[34mThis is info message[39m
+ [452cde74-7e3f-4371-ba1d-828f0cdf113a] 2023-06-05 09:45:37:4537 [32mhttp[39m :[32mThis is http message[39m
+ [452cde74-7e3f-4371-ba1d-828f0cdf113a] 2023-06-05 09:45:37:4537 [37mdebug[39m :[37mThis is debug message[39m

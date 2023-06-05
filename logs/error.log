@@ -110,3 +110,6 @@ function v4(options, buf, offset) {
  [3998c380-ef98-4b45-b293-70cb16005160] 2023-06-02 09:13:49:1349 [31merror[39m :[31mThis is error message[39m
  [3998c380-ef98-4b45-b293-70cb16005160] 2023-06-02 09:16:06:166 [31merror[39m :[31mThis is error message[39m
  [d76ed2eb-8132-4a50-ba41-4c7f8e32032a] 2023-06-02 09:36:18:3618 [31merror[39m :[31mThis is error message[39m
+ [42b4aa94-16d3-405d-8a8a-667d58dfeab3] 2023-06-02 17:26:43:2643 [31merror[39m :[31mThis is error message[39m
+ [42b4aa94-16d3-405d-8a8a-667d58dfeab3] 2023-06-02 17:55:39:5539 [31merror[39m :[31mThis is error message[39m
+ [452cde74-7e3f-4371-ba1d-828f0cdf113a] 2023-06-05 09:45:37:4537 [31merror[39m :[31mThis is error message[39m
