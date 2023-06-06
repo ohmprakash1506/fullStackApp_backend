@@ -22,6 +22,7 @@
     "jsonwebtoken": "^9.0.0",
     "mysql2": "^3.3.3",
     "node-cron": "^3.0.2",
+    "passport": "^0.6.0",
     "rootpath": "^0.1.2",
     "sequelize": "^6.31.1",
     "uuid": "^9.0.0",

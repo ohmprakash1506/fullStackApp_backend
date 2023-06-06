@@ -713,3 +713,4 @@ function v4(options, buf, offset) {
  [452cde74-7e3f-4371-ba1d-828f0cdf113a] 2023-06-05 09:45:37:4537 [34minfo[39m :[34mThis is info message[39m
  [452cde74-7e3f-4371-ba1d-828f0cdf113a] 2023-06-05 09:45:37:4537 [32mhttp[39m :[32mThis is http message[39m
  [452cde74-7e3f-4371-ba1d-828f0cdf113a] 2023-06-05 09:45:37:4537 [37mdebug[39m :[37mThis is debug message[39m
+ [8e20a49b-c71b-4ddb-9322-353f9917b34e] 2023-06-06 12:24:32:2432 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
