@@ -13,6 +13,7 @@ const port = process.env.PORT || 5010;
 scheduleCronJobs();
 
 app.get("/logger", (req, res) => {
+  
   Logger.error(`This is error message`);
   Logger.warn(`This is warn message`);
   Logger.info(`This is info message`);
