@@ -714,3 +714,27 @@ function v4(options, buf, offset) {
  [452cde74-7e3f-4371-ba1d-828f0cdf113a] 2023-06-05 09:45:37:4537 [32mhttp[39m :[32mThis is http message[39m
  [452cde74-7e3f-4371-ba1d-828f0cdf113a] 2023-06-05 09:45:37:4537 [37mdebug[39m :[37mThis is debug message[39m
  [8e20a49b-c71b-4ddb-9322-353f9917b34e] 2023-06-06 12:24:32:2432 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+ [4ba7d344-f808-4304-b6a5-929ef632a134] 2023-06-15 17:41:28:4128 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+ [b0374a85-2a87-47dd-9b69-1bf41c2f444a] 2023-06-15 18:56:10:5610 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+ [ff40d7f4-de11-4f89-95e4-3cfe0ce7b6c4] 2023-06-15 18:57:33:5733 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+ [ff40d7f4-de11-4f89-95e4-3cfe0ce7b6c4] 2023-06-15 19:43:29:4329 [31merror[39m :[31mThis is error message[39m
+ [ff40d7f4-de11-4f89-95e4-3cfe0ce7b6c4] 2023-06-15 19:43:29:4329 [33mwarn[39m :[33mThis is warn message[39m
+ [ff40d7f4-de11-4f89-95e4-3cfe0ce7b6c4] 2023-06-15 19:43:29:4329 [34minfo[39m :[34mThis is info message[39m
+ [ff40d7f4-de11-4f89-95e4-3cfe0ce7b6c4] 2023-06-15 19:43:29:4329 [32mhttp[39m :[32mThis is http message[39m
+ [ff40d7f4-de11-4f89-95e4-3cfe0ce7b6c4] 2023-06-15 19:43:29:4329 [37mdebug[39m :[37mThis is debug message[39m
+ [439a3b66-4e4e-4dd1-89f5-46be61a42dc8] 2023-06-15 23:43:46:4346 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+ [e0ee2bf0-3f41-4416-9c17-a546796fcfdf] 2023-06-16 11:01:59:159 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+ [7e8c8c83-3960-4d45-9236-a9eeb80a417b] 2023-06-16 11:03:59:359 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+ [4bebfd8b-6b1d-4492-b057-945b54942c6f] 2023-06-16 11:04:17:417 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+ [241dbe39-1bc3-4359-9e55-119aa5fadcb6] 2023-06-16 11:05:01:51 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+ [0ae84f70-472b-458e-b990-554b1d32ea9c] 2023-06-16 11:12:35:1235 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+ [bc77dcf2-6023-42cd-bb2d-d1090ed4240a] 2023-06-16 11:14:11:1411 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+ [25b2b751-ee18-477c-abdc-bdd75d13b6f6] 2023-06-16 11:14:37:1437 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+ [935791ae-189c-478d-b40d-d8e305832fb7] 2023-06-16 11:14:52:1452 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+ [b66bff73-9adc-4b91-a273-d62c2e99359b] 2023-06-16 11:19:38:1938 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+ [feaa29dc-bb8b-4358-b215-625e0f4f0d1a] 2023-06-16 11:20:29:2029 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+ [16443c9a-80e6-4b2b-b84d-7c3ca2a1a4ad] 2023-06-16 11:20:40:2040 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+ [0c73563b-28d8-426f-8282-3ab2cb5524f9] 2023-06-16 11:21:13:2113 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+ [7b20f735-5279-4af5-b2f4-80c9047b9878] 2023-06-16 11:21:18:2118 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+ [4b8bb78f-65ba-49d7-a9ef-68bbe0a2cb72] 2023-06-16 11:22:34:2234 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m
+ [ccd4f6df-1248-4c54-8ae6-971a937de313] 2023-06-16 11:22:44:2244 [37mdebug[39m :[37mServer is listening @ host http://localhost:5010[39m

@@ -14,7 +14,7 @@ const attributes = {
         type: sequelize_1.DataTypes.STRING,
         allowNull: false,
     },
-    hash: {
+    password: {
         type: sequelize_1.DataTypes.STRING,
         allowNull: false,
     },
